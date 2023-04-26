@@ -5,6 +5,7 @@
     --text-color: white;
     --primary-color: gold;
     --secondary-color: #5815c4;
+    --gray-color: rgb(163, 163, 163, .1);
 }
 
 * {
@@ -431,7 +432,7 @@ span {
     left: 0;
     width: 0%;
     height: 100%;
-    background: rgb(163, 163, 163, .1);
+    background: var(--gray-color);
     z-index: -1;
     transition: .6s;
 }
@@ -458,6 +459,87 @@ span {
 .education-content .content p {
     font-size: 1rem;
 }
+
+.skills {
+    min-height: auto;
+    padding-bottom: 5rem;
+    background: var(--bg-color);
+}
+
+.skills .heading {
+    margin-bottom: 6rem;
+}
+
+.skills .skills-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5rem;
+}
+
+.skills-row .skills-column {
+    flex: 1 1 30rem;
+}
+
+.skills-column .title {
+    font-size: 3rem;
+    margin: 0 0 4rem;
+}
+
+.skills-box .skills-content {
+    position: relative;
+    padding: .4rem 1rem;
+    z-index: 1;
+}
+
+.skills-box .skills-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(255, 217, 0, 0.144);
+    z-index: -1;
+    transition: .6s;
+    border-radius: 6px;
+}
+
+.skills-box .skills-content:hover::before {
+    width: 100%;
+}
+
+/* .skills .topic {
+    position: absolute;
+    border: .9rem solid yellow;
+    border-radius: 50%;
+    left: -1rem;
+} */
+
+.skills-column .skills-box {
+    border-left: .2rem solid var(--secondary-color);
+    border-top: .2rem solid var(--primary-color);
+    border-right: .2rem solid var(--primary-color);
+    border-bottom: .2rem solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.skills-content .skill::before {
+    content: '';
+    position: absolute;
+    border: .8rem solid yellow;
+    border-radius: 50%;
+    left: -1rem;
+}
+
+.skills-content .skill {
+    border: .2rem solid var(--secondary-color);
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
 
 @keyframes showLogo {
     100% {
