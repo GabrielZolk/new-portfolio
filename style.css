@@ -72,6 +72,12 @@ section {
     padding: 5rem 9% 2rem;
 }
 
+#play-button {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
 .home {
     display: flex;
     background: url('./assets/home.png') no-repeat;

@@ -3,6 +3,13 @@
 //     header.classList.toggle('sticky', window.scrollY > 100)
 // }
 
+const playButton = document.getElementById('play-button');
+const audio = document.getElementById('audio');
+
+playButton.addEventListener('click', function() {
+  audio.play();
+});
+
 let menuIcon = document.querySelector('#box-icons');
 let navbar = document.querySelector('.navbar');
 
@@ -32,3 +39,6 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+
+
+  
