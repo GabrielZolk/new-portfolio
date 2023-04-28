@@ -13,16 +13,21 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
     <title>Gabriel Silva - Portfolio ⚙</title>
+
+    <script>window.gtranslateSettings = {"default_language":"en","languages":["en","de","es","ru","fr","pt","ja"],"globe_color":"#66aaff","wrapper_selector":".gtranslate_wrapper","flag_size":24,"horizontal_position":"left","vertical_position":"bottom","alt_flags":{"en":"usa","pt":"brazil","es":"argentina"},"globe_size":20}</script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
 </head>
 
 <body>
     <header class="header">
-        <!-- <audio autoplay id="audio">
+        <audio autoplay id="audio">
             <source src="./assets/audio.mp3" type="audio/mp3">
-        </audio> -->
+        </audio>
 
+        <a href="#" class="logo">Gabriel🍷🗿</a>
 
-        <a href="#" class="logo">Gabriel 🍷🗿</a>
+        <!-- Translate -->
+            <div class="gtranslate_wrapper"></div>
 
         <button id="play-button"><i class='bx bxs-speaker'></i></button>
         <div class="bx bx-menu" id="box-icons"></div>
@@ -268,7 +273,10 @@
                         <!-- <div class="topic"></div> -->
                         <div class="skill">
                             <h3>Bootstrap / TailwindCSS</h3>
-                            <div class="skill-icon"><i class='bx bxl-bootstrap' style="color: rgb(149, 0, 248); font-size: 1.5rem;"></i><i class='bx bxl-tailwind-css' style="color: rgb(0, 248, 174); font-size: 1.5rem;"></i></div>
+                            <div class="skill-icon"><i class='bx bxl-bootstrap'
+                                    style="color: rgb(149, 0, 248); font-size: 1.5rem;"></i><i
+                                    class='bx bxl-tailwind-css' style="color: rgb(0, 248, 174); font-size: 1.5rem;"></i>
+                            </div>
                         </div>
 
                     </div>
@@ -313,51 +321,51 @@
 
                     </div>
                 </div>
-                
+
             </div>
-            
+
         </div>
     </section>
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact<span> Me</span></h2>
-      
+
         <form action="https://formspree.io/f/xoqzakwp" method="POST" id="contact-form">
-          <input type="hidden" name="_subject" value="New Message from Portfolio" />
-      
-          <div class="input-box">
-            <div class="input-field">
-              <input type="text" name="name" placeholder="Name" required>
-              <span class="focus"></span>
+            <input type="hidden" name="_subject" value="New Message from Portfolio" />
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="email" name="_replyto" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
             </div>
-            <div class="input-field">
-              <input type="email" name="_replyto" placeholder="Email" required>
-              <span class="focus"></span>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="tel" name="phone" placeholder="Tel" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="_subject" placeholder="Subject" required>
+                    <span class="focus"></span>
+                </div>
             </div>
-          </div>
-      
-          <div class="input-box">
-            <div class="input-field">
-              <input type="tel" name="phone" placeholder="Tel" required>
-              <span class="focus"></span>
+
+            <div class="textarea-field">
+                <textarea name="message" cols="30" rows="10" placeholder="Type Your Message Here" required></textarea>
+                <span class="focus"></span>
             </div>
-            <div class="input-field">
-              <input type="text" name="_subject" placeholder="Subject" required>
-              <span class="focus"></span>
+
+            <div class="btn-box btns submit">
+                <button type="submit" class="btn">Submit</button>
             </div>
-          </div>
-      
-          <div class="textarea-field">
-            <textarea name="message" cols="30" rows="10" placeholder="Type Your Message Here" required></textarea>
-            <span class="focus"></span>
-          </div>
-      
-          <div class="btn-box btns">
-            <button type="submit" class="btn">Submit</button>
-          </div>
         </form>
-      </section>
-      
+    </section>
+
     <footer class="footer">
         <div class="footer-text">
             <p>Gabriel Queiroz Portfolio &copy;</p>

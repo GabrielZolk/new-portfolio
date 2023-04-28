@@ -90,6 +90,20 @@ section {
     padding: 5rem 9% 2rem;
 }
 
+/* .gt-lang-code {
+    color: var(--bg-color);
+} */
+
+/* .gt-current-lang, 
+.gt-selected, 
+.gt_float_switcher {
+    background-color: var(--primary-color);
+} */
+
+.gglobe {
+    background-color: green;
+}
+
 #play-button {
     position: fixed;
     bottom: 1rem;
@@ -97,6 +111,7 @@ section {
 }
 
 .home {
+    position: relative;
     display: flex;
     background: url('./assets/home.png') no-repeat;
     background-size: cover;
@@ -105,6 +120,7 @@ section {
     min-height: 100vh;
     padding: 0 10%;
 }
+
 
 .home-content {
     max-width: 40rem;
@@ -198,9 +214,8 @@ section {
 
 .btn-box {
     position: relative;
-    display: flex;
+    
     justify-content: space-between;
-    width: 21.2rem;
     height: 4rem;
 }
 
@@ -264,7 +279,7 @@ section {
 
 .home-icons {
     position: absolute;
-    bottom: 40px;
+    bottom: 40px;  
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -666,6 +681,10 @@ span {
     cursor: pointer;
 }
 
+.submit {
+    justify-content: center;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -847,6 +866,10 @@ span {
     .education {
         height: 100%;
     }
+
+    .footer {
+        padding-bottom: 3.5rem;
+    }
 }
 
 @media (max-width: 438px) {
@@ -913,7 +936,7 @@ span {
         width: 100px;
     }
 
-    .btn-box.btns {
+    .home .btn-box.btns {
         width: 220px;
     }
 
