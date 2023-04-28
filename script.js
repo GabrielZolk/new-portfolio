@@ -32,13 +32,18 @@ window.onscroll = () => {
             navLinks.forEach(links => {
                 links.classList.remove('active');
                 document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-            })
-        }
-    })
+            });
+        };
+    });
 
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+
+const form = document.getElementById('contact-form');
+window.addEventListener('beforeunload', function() {
+        form.reset();
+});
 
 
   
