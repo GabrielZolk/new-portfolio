@@ -104,10 +104,26 @@ section {
     background-color: green;
 }
 
+.lang-span {
+    position: fixed;
+    left: 2.7rem;
+    bottom: 1rem;
+}
+
+#play-button:hover {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: .3s;
+}
+
 #play-button {
     position: fixed;
     bottom: 1rem;
     right: 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .home {
@@ -731,6 +747,15 @@ span {
     html {
         font-size: 85%;
     }
+
+    .lang-span {
+        bottom: 1.2rem;
+        left: 3rem;
+    }
+
+    .footer {
+        padding: 1.5rem 12%;
+    }
 }
 
 @media (max-width: 1043px) {
@@ -747,7 +772,7 @@ span {
     }
 
     .footer {
-        padding: 1.5rem 4%;
+        padding: 1.5rem 18%;
     }
 }
 
@@ -833,11 +858,24 @@ span {
     .home-content {
         max-width: 30rem;
     }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        margin-top: 1.4rem;
+    }
 }
 
 @media (max-width: 520px) {
     html {
         font-size: 75%;
+    }
+
+    .lang-span {
+        bottom: 1.5rem;
+        left: 3.2rem;
     }
 
     .home-content h1 strong{
@@ -868,7 +906,7 @@ span {
     }
 
     .footer {
-        padding-bottom: 3.5rem;
+        padding-bottom: 6.5rem;
     }
 }
 
@@ -888,14 +926,6 @@ span {
     .skills .skills-row {
         gap: 2rem;
         padding: 0 6%;
-    }
-
-    .footer {
-        flex-direction: column-reverse;
-    }
-
-    .footer p {
-        margin-top: 1.4rem;
     }
 }
 

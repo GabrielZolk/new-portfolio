@@ -7,7 +7,11 @@ const playButton = document.getElementById('play-button');
 const audio = document.getElementById('audio');
 
 playButton.addEventListener('click', function() {
-  audio.play();
+    if (audio.paused) { 
+        audio.play(); 
+      } else {
+        audio.pause(); 
+      }
 });
 
 let menuIcon = document.querySelector('#box-icons');
