@@ -7,6 +7,7 @@
     --secondary-color: #5815c4;
     --warm-color: #300C1E;
     --warm2-color: #FF3366;
+    --bottom-color: #070510;
     --gray-color: rgb(163, 163, 163, .1);
 }
 
@@ -28,7 +29,7 @@ html {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    cursor: url('./assets/cursor.png'), default;
+    cursor: url('../../assets/cursor.png'), default;
     user-select: none;
 }
 
@@ -38,7 +39,7 @@ body {
     left: 0;
     width: 100%;
     height: 60%;
-    background: url('./assets/angel.png') no-repeat;
+    background: url('../../assets/angel.png') no-repeat;
     background-size: auto;
     background-position: center;
     animation: showImage 5s linear forwards;
@@ -50,7 +51,7 @@ body {
     left: 0;
     width: 68%;
     height: 100%; 
-    background: url('./assets/seletor.png') no-repeat;
+    background: url('../../assets/seletor.png') no-repeat;
     background-size: 85px;
     background-position: center;
     z-index: 1;
@@ -156,7 +157,7 @@ section {
 .home {
     position: relative;
     display: flex;
-    background: url('./assets/home.png') no-repeat;
+    background: url('../../assets/home.png') no-repeat;
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -1075,3 +1076,5 @@ span {
         text-shadow: none;
     }
 }
+
+

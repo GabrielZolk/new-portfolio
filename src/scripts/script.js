@@ -1,8 +1,3 @@
-// window.onscroll = () => {
-//     let header = document.querySelector('header')
-//     header.classList.toggle('sticky', window.scrollY > 100)
-// }
-
 const playButton = document.getElementById('play-button');
 const audio = document.getElementById('audio');
 
@@ -48,6 +43,7 @@ const form = document.getElementById('contact-form');
 window.addEventListener('beforeunload', function() {
         form.reset();
 });
+
 
 
   
