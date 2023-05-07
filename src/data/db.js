@@ -53,7 +53,7 @@ const projects = [
         category: 'React',
         image: 'spotify',
         link1: 'https://github.com/GabrielZolk/spotify-clone',
-        link2: '',
+        link2: 'https://spotify-clone-nine-delta.vercel.app/',
         title: 'Spotify Clone',
         text: 'Project5'
     },
@@ -62,7 +62,7 @@ const projects = [
         category: 'React',
         image: 'parrot',
         link1: 'https://github.com/GabrielZolk/parrot-frontReact-handsOn4',
-        link2: 'https://www.figma.com/file/hz03wuzXK0M17uULiThIwo/parrot---rede-social?node-id=0%3A1',
+        link2: '',
         title: 'Parrot Social Media',
         text: 'Project6'
     },
