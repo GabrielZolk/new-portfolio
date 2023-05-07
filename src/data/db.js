@@ -106,8 +106,8 @@ const projects = [
         id: 11,
         category: 'Javascript',
         image: 'lolgame',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/LoL-Memory-Game',
+        link2: 'gabrielzolk.github.io/LoL-Memory-Game/',
         title: 'LoL Memory Game',
         text: 'Project11'
     },
@@ -115,8 +115,8 @@ const projects = [
         id: 12,
         category: 'Angular',
         image: 'nubankangular',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/nubank-angular',
+        link2: 'https://nubank-angular.vercel.app/',
         title: 'Nubank Web App',
         text: 'Project12'
     },
@@ -124,7 +124,7 @@ const projects = [
         id: 13,
         category: '',
         image: 'nuuberwallet',
-        link1: '',
+        link1: 'https://github.com/GabrielZolk/uber-clone-1-0',
         link2: '',
         title: 'Uber and Nu App Clone',
         text: 'Project13'
@@ -133,7 +133,7 @@ const projects = [
         id: 14,
         category: '',
         image: 'nuwallet',
-        link1: '',
+        link1: 'https://github.com/GabrielZolk/NuWallet',
         link2: '',
         title: 'Nu Wallet',
         text: 'Project14'
@@ -142,8 +142,8 @@ const projects = [
         id: 15,
         category: 'Javascript',
         image: 'piano',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/enchanted-piano',
+        link2: 'https://enchanted-piano.vercel.app/',
         title: 'Piano',
         text: 'Project15'
     },
@@ -151,8 +151,8 @@ const projects = [
         id: 16,
         category: 'Javascript',
         image: 'pokedex2',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/pokedex-2.0',
+        link2: 'https://gabrielzolk.github.io/pokedex-2.0/',
         title: 'Pokedex 2.0',
         text: 'Project16'
     },
@@ -160,8 +160,8 @@ const projects = [
         id: 17,
         category: 'Javascript',
         image: 'riotclient',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/riot-client',
+        link2: 'https://gabrielzolk.github.io/riot-client/',
         title: 'League of Legends Client',
         text: 'Project17'
     },
@@ -169,8 +169,8 @@ const projects = [
         id: 18,
         category: 'Javascript',
         image: 'tesla',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/tesla-clone',
+        link2: 'https://tesla-clone-ten-sigma.vercel.app/',
         title: 'Custom Tesla Homepage',
         text: 'Project18'
     },
@@ -178,10 +178,64 @@ const projects = [
         id: 19,
         category: 'HTML/CSS',
         image: 'workshop',
-        link1: '',
-        link2: '',
+        link1: 'https://github.com/GabrielZolk/workshop2',
+        link2: 'https://gabrielzolk.github.io/workshop2/',
         title: 'Marketing LandingPage',
         text: 'Project19'
+    },
+    {
+        id: 20,
+        category: 'Javascript',
+        image: 'memorydev',
+        link1: 'https://github.com/GabrielZolk/developer-mem-game',
+        link2: 'https://gabrielzolk.github.io/developer-mem-game/',
+        title: 'Developer Memory Game',
+        text: 'Project20'
+    },
+    {
+        id: 21,
+        category: 'Javascript',
+        image: 'hashgame',
+        link1: 'https://github.com/GabrielZolk/jogo-da-velha',
+        link2: 'https://gabrielzolk.github.io/jogo-da-velha/',
+        title: 'Hash Game',
+        text: 'Project21'
+    },
+    {
+        id: 22,
+        category: 'HTML/CSS',
+        image: 'basicblog',
+        link1: 'https://github.com/GabrielZolk/basic-blog',
+        link2: 'https://gabrielzolk.github.io/basic-blog/',
+        title: 'PTBR Basic Blog',
+        text: 'Project22'
+    },
+    {
+        id: 23,
+        category: 'TailwindCSS',
+        image: 'gpttail',
+        link1: 'https://github.com/GabrielZolk/chatgpt3-next',
+        link2: 'https://chatgpt3-next.vercel.app/',
+        title: 'ChatGPT Clone Interface',
+        text: 'Project23'
+    },
+    {
+        id: 24,
+        category: 'Javascript',
+        image: 'cspicks',
+        link1: 'https://github.com/GabrielZolk/CsPicksN-Bans',
+        link2: 'https://gabrielzolk.github.io/CsPicksN-Bans/',
+        title: 'CsGo Picks n Bans',
+        text: 'Project24'
+    },
+    {
+        id: 25,
+        category: 'VueJS',
+        image: 'linktwoo',
+        link1: 'https://github.com/GabrielZolk/linktwo-vue',
+        link2: 'https://linktwo-vue.vercel.app/',
+        title: '"linktwoo" linker',
+        text: 'Project25'
     },
 ]
 
