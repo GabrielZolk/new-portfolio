@@ -249,6 +249,11 @@ section {
         left: 15%;
       }
 
+      .project-scale {
+        background-color: rgba(88, 21, 196, 1);
+        transform: scale(0.8);
+    }
+
       .content p {
         font-size: 1rem;
         margin-bottom: 80px;
@@ -263,11 +268,6 @@ section {
 
     .projects h2 {
         font-size: 3rem;
-    }
-
-    .project-scale {
-        background-color: rgba(88, 21, 196, 1);
-        transform: scale(0.8);
     }
 
       .content p {
