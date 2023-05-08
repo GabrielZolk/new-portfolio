@@ -234,7 +234,10 @@ section {
     
     .show-options {
         z-index: 1;
+        animation: showOptions 1.4s ease;
+        opacity: 0;
     }
+
 }
 
 @media (max-width: 440px) {
@@ -274,4 +277,10 @@ section {
         font-size: .8rem;
         margin-bottom: 80px;
       }
+}
+
+@keyframes showOptions {
+    100% {
+        opacity: 1;
+    }
 }
