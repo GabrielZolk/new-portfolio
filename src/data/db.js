@@ -189,7 +189,7 @@ const projects = [
         image: 'memorydev',
         link1: 'https://github.com/GabrielZolk/developer-mem-game',
         link2: 'https://gabrielzolk.github.io/developer-mem-game/',
-        title: 'Developer Memory Game',
+        title: 'Dev Memory Game (JS)',
         text: 'Project20'
     },
     {
@@ -236,6 +236,24 @@ const projects = [
         link2: 'https://linktwo-vue.vercel.app/',
         title: '"linktwoo" linker',
         text: 'Project25'
+    },
+    {
+        id: 26,
+        category: 'ReactJS',
+        image: 'devmem2',
+        link1: 'https://github.com/GabrielZolk/linktwo-vue',
+        link2: 'https://linktwo-vue.vercel.app/',
+        title: 'Dev Memory Game (React)',
+        text: 'Project26'
+    },
+    {
+        id: 27,
+        category: 'ReactJS',
+        image: 'todorjs',
+        link1: 'https://github.com/GabrielZolk/linktwo-vue',
+        link2: 'https://linktwo-vue.vercel.app/',
+        title: 'ToDo List',
+        text: 'Project27'
     },
 ]
 
