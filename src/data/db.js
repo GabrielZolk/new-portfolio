@@ -187,8 +187,8 @@ const projects = [
         id: 20,
         category: 'Javascript',
         image: 'memorydev',
-        link1: 'https://github.com/GabrielZolk/developer-mem-game',
-        link2: 'https://gabrielzolk.github.io/developer-mem-game/',
+        link1: 'https://github.com/GabrielZolk/developer-mem-game-js',
+        link2: 'https://gabrielzolk.github.io/developer-mem-game-js/',
         title: 'Dev Memory Game (JS)',
         text: 'Project20'
     },
@@ -241,8 +241,8 @@ const projects = [
         id: 26,
         category: 'ReactJS',
         image: 'devmem2',
-        link1: 'https://github.com/GabrielZolk/linktwo-vue',
-        link2: 'https://linktwo-vue.vercel.app/',
+        link1: 'https://github.com/GabrielZolk/developer-mem-game-react',
+        link2: 'https://developer-mem-game-react.vercel.app/',
         title: 'Dev Memory Game (React)',
         text: 'Project26'
     },
@@ -250,8 +250,8 @@ const projects = [
         id: 27,
         category: 'ReactJS',
         image: 'todorjs',
-        link1: 'https://github.com/GabrielZolk/linktwo-vue',
-        link2: 'https://linktwo-vue.vercel.app/',
+        link1: 'https://github.com/GabrielZolk/toDo-react',
+        link2: 'https://to-do-redux-psi.vercel.app/',
         title: 'ToDo List',
         text: 'Project27'
     },
