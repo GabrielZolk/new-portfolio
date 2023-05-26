@@ -255,6 +255,24 @@ const projects = [
         title: 'ToDo List',
         text: 'Project27'
     },
+    {
+        id: 28,
+        category: 'ReactJS',
+        image: 'meutime',
+        link1: 'https://github.com/GabrielZolk/MeuTime',
+        link2: '',
+        title: '"Meu Time" App',
+        text: 'Project28'
+    },
+    {
+        id: 29,
+        category: 'Electron',
+        image: 'recorder',
+        link1: 'https://github.com/GabrielZolk/electron-recorder',
+        link2: '',
+        title: 'Recorder for Windows',
+        text: 'Project29'
+    },
 ]
 
 export default projects;
