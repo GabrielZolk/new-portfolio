@@ -273,6 +273,42 @@ const projects = [
         title: 'Recorder for Windows',
         text: 'Project29'
     },
+    {
+        id: 30,
+        category: 'ReactJS',
+        image: 'codeleap',
+        link1: 'https://github.com/GabrielZolk/CodeleapNetwork',
+        link2: 'https://codeleap-network-tan.vercel.app/',
+        title: 'CodeLeap Social Media',
+        text: 'Project30'
+    },
+    {
+        id: 31,
+        category: 'ReactJS',
+        image: 'port3',
+        link1: '',
+        link2: '',
+        title: 'Portfolio 3.0',
+        text: 'Project31'
+    },
+    {
+        id: 32,
+        category: 'ReactJS',
+        image: 'port2',
+        link1: 'https://github.com/GabrielZolk/new-portfolio',
+        link2: 'https://gabrielzolk.github.io/new-portfolio/',
+        title: 'Portfolio 2.0',
+        text: 'Project32'
+    },
+    {
+        id: 33,
+        category: 'ReactJS',
+        image: 'port1',
+        link1: 'https://github.com/GabrielZolk/portfolio-1',
+        link2: 'https://portfolio-gabrieleagle.vercel.app/',
+        title: 'Portfolio 1.0',
+        text: 'Project33'
+    },
 ]
 
 export default projects;
