@@ -260,7 +260,7 @@ const projects = [
         category: 'ReactJS',
         image: 'meutime',
         link1: 'https://github.com/GabrielZolk/MeuTime',
-        link2: '',
+        link2: 'https://meu-time-six.vercel.app/',
         title: '"Meu Time" App',
         text: 'Project28'
     },
@@ -308,6 +308,33 @@ const projects = [
         link2: 'https://portfolio-gabrieleagle.vercel.app/',
         title: 'Portfolio 1.0',
         text: 'Project33'
+    },
+    {
+        id: 34,
+        category: 'ReactJS',
+        image: 'gstage',
+        link1: 'https://github.com/GabrielZolk/growth-stage',
+        link2: 'https://growth-stage.vercel.app/',
+        title: 'GrowthStage Chart',
+        text: 'Project34'
+    },
+    {
+        id: 35,
+        category: 'Vanilla',
+        image: 'spaceport',
+        link1: 'https://github.com/GabrielZolk/space-portfolio3d',
+        link2: 'https://space-portfolio3d.vercel.app/',
+        title: 'Portfolio 4.0 3D',
+        text: 'Project35'
+    },
+    {
+        id: 36,
+        category: 'ReactJS',
+        image: 'shero',
+        link1: 'https://github.com/GabrielZolk/superhero-deck',
+        link2: 'https://superhero-deck.vercel.app/',
+        title: 'SuperHero Deck',
+        text: 'Project36'
     },
 ]
 
