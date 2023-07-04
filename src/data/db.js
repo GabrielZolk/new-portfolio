@@ -336,6 +336,42 @@ const projects = [
         title: 'SuperHero Deck',
         text: 'Project36'
     },
+    {
+        id: 37,
+        category: 'ReactJS',
+        image: 'scrjs',
+        link1: 'https://github.com/GabrielZolk/shopping-cart',
+        link2: 'https://shopping-cart-xi-ebon.vercel.app/',
+        title: 'Shopping Cart',
+        text: 'Project37'
+    },
+    {
+        id: 38,
+        category: 'ReactJS',
+        image: 'pigz',
+        link1: 'https://github.com/GabrielZolk/pigz-store',
+        link2: 'https://pigz-store.vercel.app/',
+        title: 'OrangeLabs Store Page',
+        text: 'Project38'
+    },
+    {
+        id: 39,
+        category: 'Angular',
+        image: 'tttag',
+        link1: 'https://github.com/GabrielZolk/tic-tac-toe',
+        link2: 'https://tic-tac-toe-liard-nine.vercel.app/',
+        title: 'Tic-Tac-Toe Ag',
+        text: 'Project39'
+    },
+    {
+        id: 40,
+        category: 'Angular',
+        image: 'weatherag',
+        link1: 'https://github.com/GabrielZolk/weather-angular/tree/main',
+        link2: 'https://weather-angular-eta.vercel.app/',
+        title: 'WeatherApp',
+        text: 'Project40'
+    },
 ]
 
 export default projects;
