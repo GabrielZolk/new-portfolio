@@ -372,6 +372,24 @@ const projects = [
         title: 'WeatherApp',
         text: 'Project40'
     },
+        {
+        id: 41,
+        category: 'ReactJS',
+        image: 'blockchainws',
+        link1: 'https://github.com/GabrielZolk/blockchainws',
+        link2: 'https://blockchainws.vercel.app/',
+        title: 'Blockchain Website',
+        text: 'Project41'
+    },
+        {
+        id: 42,
+        category: 'ReactJS',
+        image: 'dreamcloud',
+        link1: 'https://github.com/GabrielZolk/dreamcloud',
+        link2: 'https://dreamcloud.vercel.app/',
+        title: 'DreamCloud Host',
+        text: 'Project42'
+    },
 ]
 
 export default projects;
