@@ -381,7 +381,7 @@ const projects = [
         title: 'Blockchain Website',
         text: 'Project41'
     },
-        {
+    {
         id: 42,
         category: 'ReactJS',
         image: 'dreamcloud',
@@ -389,6 +389,42 @@ const projects = [
         link2: 'https://dreamcloud.vercel.app/',
         title: 'DreamCloud Host',
         text: 'Project42'
+    },
+    {
+        id: 43,
+        category: 'ReactJS',
+        image: 'sweden',
+        link1: 'https://github.com/GabrielZolk/sweden',
+        link2: 'https://sweden-nine.vercel.app/',
+        title: 'Sweden App',
+        text: 'Project43'
+    },
+    {
+        id: 44,
+        category: 'ReactJS',
+        image: 'apollo',
+        link1: 'https://github.com/GabrielZolk/apollo',
+        link2: 'https://apollo-murex.vercel.app/',
+        title: 'Apollo NFT',
+        text: 'Project44'
+    },
+    {
+        id: 45,
+        category: 'ReactJS',
+        image: 'webtech',
+        link1: 'https://github.com/GabrielZolk/webtech',
+        link2: 'https://webtech-omega.vercel.app/',
+        title: 'Webtech Website',
+        text: 'Project45'
+    },
+    {
+        id: 46,
+        category: 'ReactJS',
+        image: 'autoflux',
+        link1: 'https://github.com/GabrielZolk/autoflux',
+        link2: 'https://autoflux.vercel.app/',
+        title: 'Autoflux Car',
+        text: 'Project46'
     },
 ]
 
