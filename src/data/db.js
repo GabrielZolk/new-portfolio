@@ -426,6 +426,15 @@ const projects = [
         title: 'Autoflux Car',
         text: 'Project46'
     },
+        {
+        id: 47,
+        category: 'ReactJS',
+        image: 'baianotv',
+        link1: 'https://github.com/GabrielZolk/idltv',
+        link2: 'https://idltv.vercel.app/',
+        title: 'Baiano TV',
+        text: 'Project47'
+    },
 ]
 
 export default projects;
