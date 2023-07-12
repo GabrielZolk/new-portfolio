@@ -12,15 +12,6 @@
 
 const projects = [
     {
-        id: 3,
-        category: 'Javascript',
-        image: 'soundgarden',
-        link1: 'https://github.com/GabrielZolk/soundgarden-ApiReq-handsOn2',
-        link2: 'https://fernandopredes.github.io/soundgarden-front/',
-        title: 'SoundGarden Events',
-        text: 'Project3'
-    },
-    {
         id: 7,
         category: 'Bootstrap',
         image: 'skatepark',
@@ -44,7 +35,7 @@ const projects = [
         image: 'vidaemdia',
         link1: 'https://github.com/GabrielZolk/Prontuario-Digital--front-',
         link2: 'https://vida-em-dia.vercel.app/',
-        title: 'BossProject',
+        title: 'Vida em dia',
         text: 'Project10'
     },
     {
@@ -53,7 +44,7 @@ const projects = [
         image: 'nubankangular',
         link1: 'https://github.com/GabrielZolk/nubank-angular',
         link2: 'https://nubank-angular.vercel.app/',
-        title: 'Nubank Web App',
+        title: 'Nubank WebApp Version',
         text: 'Project12'
     },
     {
@@ -62,7 +53,7 @@ const projects = [
         image: 'nuuberwallet',
         link1: 'https://github.com/GabrielZolk/uber-clone-1-0',
         link2: '',
-        title: 'Uber and Nu App Clone',
+        title: 'Uber / Nubank App Mobile',
         text: 'Project13'
     },
     {
@@ -71,17 +62,8 @@ const projects = [
         image: 'piano',
         link1: 'https://github.com/GabrielZolk/enchanted-piano',
         link2: 'https://enchanted-piano.vercel.app/',
-        title: 'Piano',
+        title: 'Pian',
         text: 'Project15'
-    },
-    {
-        id: 16,
-        category: 'Javascript',
-        image: 'pokedex2',
-        link1: 'https://github.com/GabrielZolk/pokedex-2.0',
-        link2: 'https://gabrielzolk.github.io/pokedex-2.0/',
-        title: 'Pokedex 2.0',
-        text: 'Project16'
     },
     {
         id: 17,
@@ -109,15 +91,6 @@ const projects = [
         link2: 'https://chatgpt3-next.vercel.app/',
         title: 'ChatGPT Clone Interface',
         text: 'Project23'
-    },
-    {
-        id: 24,
-        category: 'Javascript',
-        image: 'cspicks',
-        link1: 'https://github.com/GabrielZolk/CsPicksN-Bans',
-        link2: 'https://gabrielzolk.github.io/CsPicksN-Bans/',
-        title: 'CsGo Picks n Bans',
-        text: 'Project24'
     },
     {
         id: 31,
