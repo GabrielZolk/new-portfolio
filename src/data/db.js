@@ -11,25 +11,6 @@
 // import vidaEmDia from '../../assets/projects/vidaemdia.png';
 
 const projects = [
-    
-    {
-        id: 1,
-        category: 'React',
-        image: 'netflix',
-        link1: 'https://github.com/GabrielZolk/netflix-clone',
-        link2: 'https://netflix-clone-6726e.web.app/',
-        title: 'Netflix Clone',
-        text: 'Project1'
-    },
-    {
-        id: 2,
-        category: 'Javascript',
-        image: 'mario',
-        link1: 'https://github.com/GabrielZolk/javascript-mario-game',
-        link2: 'https://gabrielzolk.github.io/javascript-mario-game/',
-        title: 'Mario Game',
-        text: 'Project2'
-    },
     {
         id: 3,
         category: 'Javascript',
@@ -40,33 +21,6 @@ const projects = [
         text: 'Project3'
     },
     {
-        id: 4,
-        category: 'NodeJS',
-        image: 'lavie',
-        link1: 'https://github.com/GabrielZolk/LaVie-ApiCRUD-handsOn3',
-        link2: 'https://jaquelinevictal.github.io/LaVie-HandOn3/',
-        title: 'laVie Medical',
-        text: 'Project4'
-    },
-    {
-        id: 5,
-        category: 'React',
-        image: 'spotify',
-        link1: 'https://github.com/GabrielZolk/spotify-clone',
-        link2: 'https://spotify-clone-nine-delta.vercel.app/',
-        title: 'Spotify Clone',
-        text: 'Project5'
-    },
-    {
-        id: 6,
-        category: 'React',
-        image: 'parrot',
-        link1: 'https://github.com/GabrielZolk/parrot-frontReact-handsOn4',
-        link2: '',
-        title: 'Parrot Social Media',
-        text: 'Project6'
-    },
-    {
         id: 7,
         category: 'Bootstrap',
         image: 'skatepark',
@@ -74,15 +28,6 @@ const projects = [
         link2: 'https://gabrielzolk.github.io/skatepark-bootstrap-libs/',
         title: 'Skatepark',
         text: 'Project7'
-    },
-    {
-        id: 8,
-        category: 'React',
-        image: 'gzlogin',
-        link1: 'https://github.com/GabrielZolk/gz-login',
-        link2: '',
-        title: 'Functional Login Page',
-        text: 'Project8'
     },
     {
         id: 9,
@@ -103,15 +48,6 @@ const projects = [
         text: 'Project10'
     },
     {
-        id: 11,
-        category: 'Javascript',
-        image: 'lolgame',
-        link1: 'https://github.com/GabrielZolk/LoL-Memory-Game',
-        link2: 'gabrielzolk.github.io/LoL-Memory-Game/',
-        title: 'LoL Memory Game',
-        text: 'Project11'
-    },
-    {
         id: 12,
         category: 'Angular',
         image: 'nubankangular',
@@ -128,15 +64,6 @@ const projects = [
         link2: '',
         title: 'Uber and Nu App Clone',
         text: 'Project13'
-    },
-    {
-        id: 14,
-        category: '',
-        image: 'nuwallet',
-        link1: 'https://github.com/GabrielZolk/NuWallet',
-        link2: '',
-        title: 'Nu Wallet',
-        text: 'Project14'
     },
     {
         id: 15,
@@ -175,42 +102,6 @@ const projects = [
         text: 'Project18'
     },
     {
-        id: 19,
-        category: 'HTML/CSS',
-        image: 'workshop',
-        link1: 'https://github.com/GabrielZolk/workshop2',
-        link2: 'https://gabrielzolk.github.io/workshop2/',
-        title: 'Marketing LandingPage',
-        text: 'Project19'
-    },
-    {
-        id: 20,
-        category: 'Javascript',
-        image: 'memorydev',
-        link1: 'https://github.com/GabrielZolk/developer-mem-game-js',
-        link2: 'https://gabrielzolk.github.io/developer-mem-game-js/',
-        title: 'Dev Memory Game (JS)',
-        text: 'Project20'
-    },
-    {
-        id: 21,
-        category: 'Javascript',
-        image: 'hashgame',
-        link1: 'https://github.com/GabrielZolk/jogo-da-velha',
-        link2: 'https://gabrielzolk.github.io/jogo-da-velha/',
-        title: 'Hash Game',
-        text: 'Project21'
-    },
-    {
-        id: 22,
-        category: 'HTML/CSS',
-        image: 'basicblog',
-        link1: 'https://github.com/GabrielZolk/basic-blog',
-        link2: 'https://gabrielzolk.github.io/basic-blog/',
-        title: 'PTBR Basic Blog',
-        text: 'Project22'
-    },
-    {
         id: 23,
         category: 'TailwindCSS',
         image: 'gpttail',
@@ -227,60 +118,6 @@ const projects = [
         link2: 'https://gabrielzolk.github.io/CsPicksN-Bans/',
         title: 'CsGo Picks n Bans',
         text: 'Project24'
-    },
-    {
-        id: 25,
-        category: 'VueJS',
-        image: 'linktwoo',
-        link1: 'https://github.com/GabrielZolk/linktwo-vue',
-        link2: 'https://linktwo-vue.vercel.app/',
-        title: '"linktwoo" linker',
-        text: 'Project25'
-    },
-    {
-        id: 26,
-        category: 'ReactJS',
-        image: 'devmem2',
-        link1: 'https://github.com/GabrielZolk/developer-mem-game-react',
-        link2: 'https://developer-mem-game-react.vercel.app/',
-        title: 'Dev Memory Game (React)',
-        text: 'Project26'
-    },
-    {
-        id: 27,
-        category: 'ReactJS',
-        image: 'todorjs',
-        link1: 'https://github.com/GabrielZolk/toDo-react',
-        link2: 'https://to-do-redux-psi.vercel.app/',
-        title: 'ToDo List',
-        text: 'Project27'
-    },
-    {
-        id: 28,
-        category: 'ReactJS',
-        image: 'meutime',
-        link1: 'https://github.com/GabrielZolk/MeuTime',
-        link2: 'https://meu-time-six.vercel.app/',
-        title: '"Meu Time" App',
-        text: 'Project28'
-    },
-    {
-        id: 29,
-        category: 'Electron',
-        image: 'recorder',
-        link1: 'https://github.com/GabrielZolk/electron-recorder',
-        link2: '',
-        title: 'Recorder for Windows',
-        text: 'Project29'
-    },
-    {
-        id: 30,
-        category: 'ReactJS',
-        image: 'codeleap',
-        link1: 'https://github.com/GabrielZolk/CodeleapNetwork',
-        link2: 'https://codeleap-network-tan.vercel.app/',
-        title: 'CodeLeap Social Media',
-        text: 'Project30'
     },
     {
         id: 31,
@@ -308,15 +145,6 @@ const projects = [
         link2: 'https://portfolio-gabrieleagle.vercel.app/',
         title: 'Portfolio 1.0',
         text: 'Project33'
-    },
-    {
-        id: 34,
-        category: 'ReactJS',
-        image: 'gstage',
-        link1: 'https://github.com/GabrielZolk/growth-stage',
-        link2: 'https://growth-stage.vercel.app/',
-        title: 'GrowthStage Chart',
-        text: 'Project34'
     },
     {
         id: 35,
@@ -353,15 +181,6 @@ const projects = [
         link2: 'https://pigz-store.vercel.app/',
         title: 'OrangeLabs Store Page',
         text: 'Project38'
-    },
-    {
-        id: 39,
-        category: 'Angular',
-        image: 'tttag',
-        link1: 'https://github.com/GabrielZolk/tic-tac-toe',
-        link2: 'https://tic-tac-toe-liard-nine.vercel.app/',
-        title: 'Tic-Tac-Toe Ag',
-        text: 'Project39'
     },
     {
         id: 40,
