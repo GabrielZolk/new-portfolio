@@ -218,7 +218,7 @@ const projects = [
         title: 'Autoflux Car',
         text: 'Project46'
     },
-        {
+    {
         id: 47,
         category: 'ReactJS',
         image: 'baianotv',
@@ -226,6 +226,87 @@ const projects = [
         link2: 'https://idltv.vercel.app/',
         title: 'Baiano TV',
         text: 'Project47'
+    },
+    {
+        id: 48,
+        category: 'Angular',
+        image: 'ivip',
+        link1: 'https://github.com/GabrielZolk/taskmanager-vip-frontend',
+        link2: 'https://taskmanager-vip.vercel.app/',
+        title: 'TaskManager Fullstack',
+        text: 'Project48'
+    },
+    {
+        id: 49,
+        category: 'Node-Express',
+        image: 'localcrud',
+        link1: 'https://github.com/GabrielZolk/jsondb-products-api',
+        link2: 'https://github.com/GabrielZolk/jsondb-products-api',
+        title: 'Api Json Database',
+        text: 'Project49'
+    },
+    {
+        id: 50,
+        category: 'Angular',
+        image: 'hpdeck',
+        link1: 'https://github.com/GabrielZolk/harrypotter-deck',
+        link2: 'https://harrypotter-deck.vercel.app/',
+        title: 'HarryPotter Deck',
+        text: 'Project50'
+    },
+    {
+        id: 52,
+        category: 'Javascript',
+        image: 'codeeditor',
+        link1: 'https://github.com/GabrielZolk/fastjs-codeEditor',
+        link2: 'https://gabrielzolk.github.io/fastjs-codeEditor/',
+        title: 'Code Editor',
+        text: 'Project52'
+    },
+    {
+        id: 53,
+        category: 'Javascript',
+        image: 'paint',
+        link1: 'https://github.com/GabrielZolk/paint-web',
+        link2: 'https://gabrielzolk.github.io/paint-web/',
+        title: 'Paint Web',
+        text: 'Project53'
+    },
+    {
+        id: 54,
+        category: 'Node-Express',
+        image: 'jarvisgpt',
+        link1: 'https://github.com/GabrielZolk/jarvisgpt/tree/main/src',
+        link2: 'https://github.com/GabrielZolk/jarvisgpt/tree/main/src',
+        title: 'Jarvis GPT 1.0',
+        text: 'Project54'
+    },
+    {
+        id: 55,
+        category: 'Node-Express',
+        image: 'wppbot',
+        link1: 'https://github.com/GabrielZolk/attendant-whatsapp-bot',
+        link2: 'https://github.com/GabrielZolk/attendant-whatsapp-bot',
+        title: 'Whatsapp bot',
+        text: 'Project55'
+    },
+    {
+        id: 56,
+        category: 'Node-Express',
+        image: 'telbot',
+        link1: 'https://github.com/GabrielZolk/weather-telegram-bot',
+        link2: 'https://github.com/GabrielZolk/weather-telegram-bot',
+        title: 'Telegram bot',
+        text: 'Project56'
+    },
+    {
+        id: 57,
+        category: 'ReactJS',
+        image: 'freelaport',
+        link1: 'https://github.com/GabrielZolk/freela-portfolio',
+        link2: 'https://gabrielzolk.github.io/freela-portfolio/',
+        title: 'Freela Portfolio',
+        text: 'Project57'
     },
 ]
 
